@@ -1,3 +1,4 @@
+            //Upper Camel Case
 public class NamingJava {
     public static void main(String[] args){
         int celphone = 33377722;
@@ -15,5 +16,10 @@ public class NamingJava {
         final int POSITION = -5;
         final int MAX_WIDTH = 999;
         final int MIN_WIDTH = 1;
+
+        //Lower Camel Case
+        String fullName= "Juan Carlos Hernandez Sanchez";
+        int sizeInCentimeters = 26;
+
     }
 }
