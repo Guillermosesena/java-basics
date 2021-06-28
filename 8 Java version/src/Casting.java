@@ -14,5 +14,20 @@ public class Casting {
         int b = 12;
 
         System.out.println((double) a/b);
+
+        //automatic casting (implicit casting) int/int -> int
+        double c = a /b;//2
+        System.out.println(c);
+
+        c = (double) a/b; //2.5
+        System.out.println(c);
+
+        // '1' -> decimal ASCII 49
+        char n = '1';
+        int nl = n;
+        System.out.println(nl);
+
+        short nS = (short) n;
+        System.out.println(nS);
     }
 }
