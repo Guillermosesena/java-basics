@@ -16,7 +16,7 @@ public class MathematicsOperations {
         System.out.println(Math.max(x,y));
 
         //return square root
-        System.out.println(Math.sqrt(x));
+        System.out.println((int) Math.sqrt(x));
 
         //circle area
         //pi * r^2
