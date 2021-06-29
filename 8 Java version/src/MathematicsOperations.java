@@ -28,6 +28,6 @@ public class MathematicsOperations {
 
         //sphere area
         //(4/3)*PI*r^3
-        System.out.println((4/3) * Math.PI * Math.pow(y,3));
+        System.out.println((4.0/3.0) * Math.PI * Math.pow(y,3));
     }
 }
