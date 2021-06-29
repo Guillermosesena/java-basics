@@ -19,10 +19,14 @@ public class Arrays {
         androidVersions[2] = "Cupcake";
         androidVersions[3] = "Donut";
 
-        System.out.println(androidVersions[0]);
-        System.out.println(androidVersions[1]);
-        System.out.println(androidVersions[2]);
-        System.out.println(androidVersions[3]);
+        for(int k=0; k<androidVersions.length; k++)
+        {
+            System.out.println("Android version: " + androidVersions[k]);
+        }
+
+        for (String androidVersion : androidVersions) {
+            System.out.println(androidVersion);
+        }
 
         cities[0][0]="México";
         cities[0][1]="CDMX";
@@ -33,12 +37,34 @@ public class Arrays {
         cities[3][0]="Colombia";
         cities[3][1]="Medellín";
 
-        for(int i=0; i<4; i++)
+        /*for(int i=0; i<4; i++)
         {
             System.out.println("Country: " + cities[i][0]+ " City:" + cities[i][1]);
+        }*/
+
+        /*for(int i=0; i< cities.length; i++)
+        {
+            for(int j=0; j < cities[i].length; j++)
+            System.out.println(cities[i][j]);
+        }*/
+
+        for (String[] pair: cities) {
+            for (String name: pair) {
+                System.out.println(name);
+            }
         }
+
 
         String[][][][] animals = new String[2][3][2][2];
         animals[1][0][0][1] = "Monkey";
+        for(int i=0; i< animals.length; i++) {
+            for (int j = 0; j < animals[i].length; j++) {
+                for (int k=0; k<animals[i][j].length; k++) {
+                    for(int m=0; m<animals[i][j][k].length; m++) {
+                        System.out.println(animals[i][j][k][m]);
+                    }
+                }
+            }
+        }
     }
 }
