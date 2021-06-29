@@ -4,12 +4,16 @@ public class WhileLoop {
     public static void main(String[] args) {
 
         turnOffLight();
-
+        for(int i=0; i <= 10; i++)
+        {
+            printSOS();
+        }
+        /*
         int i = 1;
         while(isTurnOnLight && i<=100) {
             printSOS();
             i++;
-        }
+        }*/
     }
 
     /**
